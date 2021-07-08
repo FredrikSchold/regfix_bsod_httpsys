@@ -1,6 +1,6 @@
 #Fixes the BSOD that occurs when debugging with Visual Studio 2019. 
 #BSOD stop code: SYSTEM_THREAD_EXCEPTION_NOT_HANDLED
-#What failed: HHTP.sys
+#What failed: HTTP.sys
 
 $regPath = "HKLM:\System\CurrentControlSet\Services\HTTP\Parameters"
 $value = 0
